@@ -23,3 +23,21 @@ if(num1>=num2){
 else{
     console.log("num2 is big")
 }
+
+
+const year=2024
+if(year%4==0){
+    console.log("leap year")
+}
+else{
+    console.log("not leap year")
+}
+
+
+var num=5
+var sum=0
+for(let i=1;i<=num;i++)
+{
+    sum+=i
+}
+console.log(sum)
