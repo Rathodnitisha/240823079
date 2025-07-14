@@ -12,3 +12,5 @@ if (a%2==0)
 else{
     console.log("number isodd")
 }
+
+console.log("Atmiya")
