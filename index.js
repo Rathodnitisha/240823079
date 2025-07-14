@@ -10,7 +10,7 @@ if (a%2==0)
     console.log("number is  even")
 }
 else{
-    console.log("number isodd")
+    console.log("number is odd")
 }
 
 console.log("Atmiyaaaa")
