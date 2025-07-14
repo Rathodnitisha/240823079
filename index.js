@@ -13,4 +13,4 @@ else{
     console.log("number isodd")
 }
 
-console.log("Atmiya")
+console.log("Atmiyaaaa")
