@@ -1,0 +1,20 @@
+{
+  "name": "240823079",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rathodnitisha/240823079.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rathodnitisha/240823079/issues"
+  },
+  "homepage": "https://github.com/Rathodnitisha/240823079#readme"
+}
