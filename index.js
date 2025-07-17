@@ -74,50 +74,62 @@
 
 // pro-7
 
-let num1 = 1234;
-let result = num1.toString().split('').reverse().join(' ');
-console.log(result)
+// let num1 = 1234;
+// let result = num1.toString().split('').reverse().join(' ');
+// console.log(result)
 
-console.log(reversedNumber(1234));
+// console.log(reversedNumber(1234));
 
 
-let number = 1234;
-let reversed=0;
+// let number = 1234;
+// let reversed=0;
 
-while(number>0){
-    let digit = number%10;
-    reversed =reversed*10+digit;
-    number=Math.floor(number/10);
+// while(number>0){
+//     let digit = number%10;
+//     reversed =reversed*10+digit;
+//     number=Math.floor(number/10);
 
-}
-console.log(`${reversed}`)
+// }
+// console.log(`${reversed}`)
 
 
 // pro-8
-function isPali(num){
-    let s = num.toString();
-    let reversed = s.split('').reverse().join('');
-    return s===reversed ? 'Palindrome':'Not Palindrome';
-}
-console.log(isPali(121))
+// function isPali(num){
+//     let s = num.toString();
+//     let reversed = s.split('').reverse().join('');
+//     return s===reversed ? 'Palindrome':'Not Palindrome';
+// }
+// console.log(isPali(121))
 
 // pro-9
-function isPri(num){
-    if(num<=1)return'Not prime';
-    for (let i=2; i<=Math.sqrt(num);i++){
-        if(num %i===0)
-        return 'Not prime';
-}
-  return'Prime';
-}
-console.log(isPri(11))
+// function isPri(num){
+//     if(num<=1)return'Not prime';
+//     for (let i=2; i<=Math.sqrt(num);i++){
+//         if(num %i===0)
+//         return 'Not prime';
+// }
+//   return'Prime';
+// }
+// console.log(isPri(11))
 
 
 // pro-10
-let num = 5023;
-let count =0;
-while(num>0){
-    num = Math.floor(num/10);
-    count++;
+// let num = 5023;
+// let count =0;
+// while(num>0){
+//     num = Math.floor(num/10);
+//     count++;
+// }
+// console.log(`${count}`)
+
+// pro-11
+function sumDigit(num){
+    let numStr = num.toString();
+    let sum=0;
+
+    for(let digit of numStr){
+        sum +=parseInt(digit);
+   }
+   return sum;
 }
-console.log(`${count}`)
+console.log(sumDigit(123));
