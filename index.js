@@ -123,13 +123,69 @@
 // console.log(`${count}`)
 
 // pro-11
-function sumDigit(num){
-    let numStr = num.toString();
-    let sum=0;
+// function sumDigit(num){
+//     let numStr = num.toString();
+//     let sum=0;
 
-    for(let digit of numStr){
-        sum +=parseInt(digit);
-   }
-   return sum;
+//     for(let digit of numStr){
+//         sum +=parseInt(digit);
+//    }
+//    return sum;
+// }
+// console.log(sumDigit(123));
+
+
+// pro-12
+let sum = 0;
+const number = 153
+let temp = number;
+while (temp > 0) {
+   
+    let remainder = temp % 10;
+    sum += remainder * remainder * remainder;
+    temp = parseInt(temp / 10);
 }
-console.log(sumDigit(123));
+if (sum == number) {
+    console.log(`${number} is an Armstrong number`);
+}
+else {
+    console.log(`${number} is not an Armstrong number.`);
+}
+
+
+// pro-13
+
+const number = 5;
+let n1 = 0, n2 = 1, nextTerm;
+for (let i = 1; i <= number; i++) {
+    console.log(n1);
+    nextTerm = n1 + n2;
+    n1 = n2;
+    n2 = nextTerm;
+}
+
+// pro-14
+
+let s = 'g';
+if (s === 'a' || s === 'e' || s === 'i' || s === 'o' || s === 'u' ||
+    s === 'A' || s === 'E' || s === 'I' || s === 'O' || s === 'U') {
+    console.log(`${s} is a vowel`);
+} else {
+    console.log(`${s} is a consonant`);
+}
+
+// program-15
+let x = 4
+let y = 2;
+let a = x + y;
+let b = x - y;
+let c = x*y;
+let d = x/y;
+console.log(a);
+console.log(b);
+console.log(c);
+console.log(d);
+
+ 
+  
+  
