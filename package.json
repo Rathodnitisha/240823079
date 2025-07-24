@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "type": "module",
+
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -17,5 +17,11 @@
   "bugs": {
     "url": "https://github.com/Rathodnitisha/240823079/issues"
   },
-  "homepage": "https://github.com/Rathodnitisha/240823079#readme"
+  "homepage": "https://github.com/Rathodnitisha/240823079#readme",
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "moment": "^2.30.1",
+    "moments": "^0.0.2",
+    "path": "^0.12.7"
+  }
 }
