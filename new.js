@@ -24,3 +24,5 @@ fs.readFile("txt.txt","utf8",function(err,data){
       console.log("file content:",data);
 });
 
+
+
